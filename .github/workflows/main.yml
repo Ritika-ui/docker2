@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  build-and-run:
+  build-run-test:
     runs-on: ubuntu-latest
 
     steps:
@@ -19,5 +19,8 @@ jobs:
       - name: Run Container
         run: docker run -d -p 5000:5000 myapp
 
-      - name: Check running containers
-        run: docker ps
+      - name: Wait for app to start
+        run: sleep 5
+
+      - name: Test app
+        run: curl http://localhost:5000
