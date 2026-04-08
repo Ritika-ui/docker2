@@ -24,3 +24,6 @@ jobs:
 
       - name: Test app
         run: curl http://localhost:5000
+
+      - name: Deploy step (simulation)
+        run: echo "🚀 App deployed successfully!"
