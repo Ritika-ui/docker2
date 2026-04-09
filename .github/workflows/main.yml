@@ -23,7 +23,7 @@ jobs:
         run: sleep 5
 
       - name: Test app
-        run: curl http://localhost:9999
+        run: curl http://localhost:5000
 
       - name: Deploy step (simulation)
         run: echo "🚀 App deployed successfully!"
