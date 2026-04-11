@@ -1,4 +1,8 @@
 # 🚀 Docker + Nginx DevOps Mini Project
+## 🌐 Live Demo
+https://first-project-with-docker-ci.onrender.com
+
+
 
 This project demonstrates a basic DevOps setup using **Docker**, **Docker Compose**, and **Nginx** with a simple Flask application.
 
